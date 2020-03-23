@@ -1,4 +1,4 @@
-TOKEN = '989453141:AAEVT14awCIqB6sZwphgoatAjghsglWBhYM'
+TOKEN = ''
 
 START_KEYBOARD = dict(
     categories='Категория',
