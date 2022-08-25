@@ -7,7 +7,7 @@ from telebot.types import (InlineKeyboardButton,
                            InlineKeyboardMarkup,
                            ReplyKeyboardMarkup)
 
-connect('bot_shop', host='192.168.0.9', port=27017)
+connect('bot_shop', host='<host name or IP>', port=<port ID>)
 
 bot = telebot.TeleBot(TOKEN)
 
