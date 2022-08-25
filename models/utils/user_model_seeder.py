@@ -56,7 +56,7 @@ def seed_products_with_image():
             i.save()
 
 if __name__ == '__main__':
-    con = connect('bot_shop', host='192.168.0.9', port=27017)
+    con = connect('bot_shop', host='<host name or IP', port=<port ID>)
     cats = seed_and_get(3)
     seed_products(10, cats)
     Text(title="Greeting", text='Я бот интернет магазина '
