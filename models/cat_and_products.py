@@ -1,7 +1,7 @@
 from mongoengine import *
 from models.user_model import User
 
-connect('bot_shop', host='192.168.0.9', port=27017)
+connect('bot_shop', host='<your host ip>', port=<port id>)
 
 #Записывает в базу названия подкатегорий
 class Category(Document):
